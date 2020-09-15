@@ -2,3 +2,6 @@
 from .simplepreprocessor import SimplePreprocessor
 from .imagetoarraypreprocessor import ImageToArrayPreprocessor
 from .aspectawarepreprocessor import AspectAwarePreprocessor
+from .meanpreprocessor import MeanPreProcessor
+from .croppreprocessor import CropPreProcessor
+from .patchpreprocessor import PatchPreProcessor
