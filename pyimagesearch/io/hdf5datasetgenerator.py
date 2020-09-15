@@ -17,7 +17,7 @@ class HDF5DataSetGenerator:
 
         # open the hdf5 database for reading and determine the total num
         # of entries in the db
-        self.db = h5py.file(dbPath, "r")
+        self.db = h5py.File(dbPath, "r")
         self.numImages = self.db['labels'].shape[0]
 
     def generator(self, passes=np.inf):
